@@ -1,44 +1,50 @@
+:root{
+    --green: rgb(96, 156, 127);
+    --grey: rgb(30, 30, 30);
+    --lightgrey: rgb(67, 69, 72);
+    --white: rgb(255,255,255);
+}
+
 body{
+    background-color: var(--grey);
+    color: var(--white);
     text-align: center;
-    background-color: rgb(30, 30, 30);
     font-family: 'Roboto', sans-serif;
-    color: white;
     font-weight:bolder;
 }
 h1{
     font-family: 'Roboto', sans-serif;
 }
 h2{
-    color: rgb(96, 156, 127);
+    color: var(--green);
 }
 img{
+    border-color: var(--white);
     border-radius: 50%;
     width: 180px;
     height: 180px;
     margin-top: 30px;
-    border-color: white;
 }
 button{
     display: cover;
     width: 75%;
     max-width: 400px;
     height:fit-content;
+    background-color: var(--lightgrey);
     padding-top: 12px;
     padding-bottom: 12px;
     margin-bottom: 12px;
     border-radius: 12px;
-    background-color: rgb(67, 69, 72);
     border: none;
 }
 button:hover {
-    background-color:rgb(96, 156, 127);
-    color:rgb(96, 156, 127);
+    background-color: var(--green);
 }
 a{
-    color: white;
+    color: var(--white);
     font-weight: bolder;
 }
 .attribution{
+    color: var(--green);
     margin-top: 20px;
-    color: rgb(96, 156, 127);
 }
